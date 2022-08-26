@@ -1,6 +1,6 @@
 module CovidCountyDash
 import HTTP, CSV
-using Dash, DashCoreComponents, DashHtmlComponents
+using Dash
 using DataFrames, Dates, PlotlyBase, Statistics
 using DataStructures: OrderedDict
 using Base: splat
